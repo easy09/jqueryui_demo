@@ -1,0 +1,44 @@
+        <style>
+        #helper{
+            line-height: 30px;
+        }
+        #helper ul,#helper ol{
+           margin-left:20px;
+        }
+        </style>
+<div id="helper">
+      <h3>jQuery UI标准后台页面演示系统说明</h3>
+      <p>您好！欢迎使用jquery UI 标准后台系统V0.2版</p>
+      <p>您可以点击<a href="http://www.cn09.com/demo1">这里</a>查看V0.1版的DEMO</p>
+      <p>0.2版唯一下载地址是XXX，为统计真正的下载人数，作者将不在其他网站发布更新版本，也请各位站长不要转载，谢谢合作</p>
+      <h4>系统的设计目的</h4>
+      <div>
+          <p>0.2版全面模拟了一个CMS系统界面环境，对jquery.ui的大部分常用功能进行了演示，适合作为jquery.ui学习好帮手</p>
+      </div>
+      <div>
+          <p>这个DEMO，最值得推荐的功能在于，jQuery代码是一次载入的，使用这套界面进行开发，程序员可以完全不懂jQuery，而仍能享用jQuery的种种便利。</p>
+      </div>
+      <h4>0.1版系统特点介绍</h4>
+      <ul>
+          <li>集成了jQuery UI的风琴盒、页标签特效、ajaxForm表单递交和validate表单验证功能，无需程序员学习这些功能，按常规方式编程即可自动调用。</li>
+          <li>保持了与jqueryui的完全兼容，可以自行前往www.jqueryui.com网站下载更多酷炫界面风格，甚至自定义风格</li>
+          <li>涉及的PHP代码极少且足够建议，非PHP程序员也能使用</li>
+          <li>对系统要求非常低，只要普通PHP程序能够运行即可</li>
+      </ul>
+      <h4>系统实际使用步骤</h4>
+      <ol>
+          <li>复制（解压）文件夹到网站测试文档根目录（apache系统下一般是htdocs）,即可直接访问</li>
+          <li>修改config.php文件中的数组，即可快速生成界面结构</li>
+          <li>config.php中的$tabs数组就是页面标签内容，其中的url可自行指定或新建文件，文件格式可以参照admin.php、helper.php等文件</li>
+          <li>如果$tab中url指向的文件中需要包含表单，按常规写法即可，无需特殊代码即可自动以ajax方式递交</li>
+          <li>如果表单需要ajax方式验证，可以给相应的表单项添加class,可参见systemsetting.php和address.php文件，也可自行网上搜索和阅读jquery.validate.js的帮助文档</li>
+          <li>演示中的项目，只有核心系统下的后台首页和系统设置有效，其它都只是点缀</li>
+      </ol>
+      <h4>交流和联系方式</h4>
+      <ul>
+          <li>演示：<a href="http://www.cn09.com/demo" target="_blank">最新版官方演示</a></li>
+          <li>论坛：<a href="http://www.cn09.com" target="_blank">第九区论坛</a></li>
+          <li>QQ群：157229796（较空）51166907（满员,一至二周清理一次）</li>
+      </ul>
+</div>
+
